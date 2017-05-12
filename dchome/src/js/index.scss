@@ -1,0 +1,13 @@
+/*SCSS*/
+@font-face {
+  font-family: xxxx;
+  src: url('../font/xx.ttf'); /* IE9 Compat Modes */
+}
+*{
+  box-sizing: border-box;
+}
+html, body {
+  position: relative;
+  height: 100%;
+  font-size: 62.5%;
+}

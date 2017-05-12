@@ -1,0 +1,32 @@
+.list-ul{
+    position: fixed;
+    top: 2rem;;
+    right: 2rem;;
+    z-index: 50;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    color: #fff;
+}
+.list-ul>div{
+    display: inline-block;
+    margin-left: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+}
+.list-ul>div> .cn{
+    font-size: 1.8rem;
+}
+.list-ul>div> .en{
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.6);
+}
+.dclogo{
+    position:fixed;
+    top:2rem;
+    left:3rem;
+    z-index: 50;
+}

@@ -1,0 +1,19 @@
+.service-button{
+    padding: 0.4rem 1.8rem;
+    height:3.2rem;
+    line-height:0;
+    border-radius: 1.3rem;
+    border:1px solid #4EE2C2;
+    color: #4EE2C2;
+    background: transparent;
+    outline: none;
+    font-size: 2rem;
+    text-decoration: none;
+}
+@media screen and (max-width: 1367px){
+    .service-button{
+        height:2.6rem;
+        font-size: 1.5rem;
+        padding: 0.4rem 1.4rem;
+    }
+}
